@@ -1,0 +1,75 @@
+body {
+  /* for mobile view */
+  background-color: red;
+  font-size: 1rem;
+}
+
+/* desktop */
+@media (min-width: 700px) {
+  body {
+    background-color: cadetblue;
+    font-size: 2rem;
+  }
+
+  /* device more than desktop */
+  @media (min-width: 1000px) {
+    body {
+      font-size: 3rem;
+      background-color: #f57fa;;
+    }
+  }
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+</style>
+}
+
+{
+  font-family: "inter", serf;
+}
+
+
+img {
+  ..max-width: 100%
+}
+
+h1
+h2
+h3
+h4
+h5
+h6 {
+  color:#4d4d4d;
+}
+
+login-button {
+  background-color: #f5ffaf;
+  width: 2.5rem;
+  heigth: 2.5rem;
+  border-radius: 6px;
+  padding: 10px 20px;
+  color: #4caf4f;
+  color: 0:#4caf4ffont-size: 0.87rem;
+  font-weight: 500;
+}
+
+.sign-up-button {
+  width: 5.69rem;
+  height: 2.5rem;
+  background-color: #4caf4f;
+  border-radius: 6px;
+  border: 0;
+  padding: 10px 20px;
+  color: #ffffff;
+  font-size:  14px;s
+}
+
+
+.register-button {
+  background-color: #4caf4f;
+  height: 3.25rem;
+  width: 8rem;
+  border-radius: 4px;
+  color: white
+  border: 0;
+
+}

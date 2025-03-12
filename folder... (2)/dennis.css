@@ -1,0 +1,112 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+h2 {
+  color: red;
+  background-color: black;
+  font-size: 3rem;
+}
+
+/* using id as a selector. id's always start with # */
+#about--heading {
+  color: purple;
+  font-size: 4rem;
+}
+
+#working--heading {
+  color: red;
+  font-size: 5rem;
+  font-weight: lighter;
+}
+
+#contact--heading {
+  color: dimgrey;
+}
+
+/* using class selector. class selector always start with dot[.] */
+.container--primary {
+  background-color: red;
+}
+
+.paragraph--text {
+  color: blue;
+}
+
+.container--secondary {
+  display: flex;
+  justify-content: space-between
+  background-color: black;
+   height: 1.5rem;
+  background-color: red;
+  padding: 4rem;
+  margin: 6rem;
+  border-width: 2rem;
+  border-color: red
+  border-style: solid;
+}
+
+#box-one {
+  height: 1.5rem;
+  background-color: red;
+  
+}
+
+box-two {
+  height: 1.5rem;
+  background-color: blue;
+}
+#box-three {
+  height: 1.5rem;
+  background-color: green;
+}
+
+my-box{
+  position: fixed;
+  top: 3rem
+  height: 10rem;
+  width: 10rem;
+  background-color: green 
+}
+
+.parent-box {
+  background-color; black
+  height: 20rem;
+  width: 20rem;
+}
+
+.child-box {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: blue
+}
+
+/* global presets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: ;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100vh
+}
+
+section {
+  background color:display: ;
+  padding: 4rem;
+  border-line
+  
+}
+
+
+#profile-image {
+  width: 6image;
+  border-radius: 100%;
+  margin-bottom: 0.5rem;
+}
+
+section h1 {

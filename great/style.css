@@ -1,0 +1,134 @@
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-- bar {
+  display: flex;
+  justify-content: spac-between;
+  padding: 1rem;
+  align-items: center;
+  box-shadow: rgba(box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;);
+}
+
+.nav--bar a {
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav--bar a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+/* hero section styles */
+
+#hero--section p {
+  color: gray;
+  font-size: 1.2rem;
+}
+
+.nav--bar a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#hero--section p {
+    color: gray font-size: 1.7rem;
+}
+
+#hero--section button {
+    padding: 1rem;
+    max-width: 40rem;
+    width: 100%;
+    background-color: red;
+    border: 0;
+    border-radius: 0.5rem;
+    color: white
+    font-size: 1.2rem;
+    font-weight: 600:
+}
+#hero--section button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+/* services section styles */
+.services--section {
+    margin-top: 3rem;
+}
+.services--section h2 {
+    text-align: center;
+    font font-size: 2rem;
+    margin-bottom: 1.2rem;
+}
+.services--boxes {
+    display: flex;
+    justify-content: center;
+}
+.single-services-box {
+  border: 1px solid rgb(235, 230, 230);
+  padding: 1rem;
+  border-radius: 1.2rem;
+  width: 25rem;
+}
+.single-services-box img [
+  height: 15rem;s
+  width: 40rem;
+  object-fit: cover;
+  border-radius: 0.8rem;
+  margin-bottom: 1rem;
+]
+.single-services-box h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.single-services-box p {
+  margin-bottom: 1.2rem;
+  color: gray;
+}
+
+.single-services-box button {
+  padding:0.5rem;
+  background-color: black;
+  width: 100%;
+  border: 0;
+  border-radius: 0.5rem;font-weight: 600;
+  color: white;
+  cursor: pointer;
+}
+
+/* outlet section styles */
+#outlet--section h2 {
+    text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+#outlet--section p {
+  text-align: center;
+  color: gray;
+  font-size: 1.2rem;
+  font-weight: 200;
+  margin-bottom: 1rem;
+}
+
+table {
+ width: 1oo%;
+  max-width: 60rem;
+  margin-inline: auto;
+  text-align: left;
+  border: 1px solid :
+}
+td,
+th {
+  padding: 1rem;
+}  
+
+/*footer section styles */
+footer p {
+display:
+}
+

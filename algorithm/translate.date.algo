@@ -1,0 +1,25 @@
+ALGORITHM translate-date
+VAR
+    nb, day, month, year : INTTEGER;
+    mon : STRING
+BEGIN
+    write("give the number")
+    Read(nb)
+    day     := nb % 1000000
+    month   := nb % 10000 
+    year    := nb % 100
+    
+
+    if (month > 12 or day > 31)  THEN
+         Write("Wrong date,   verify  the  given  number")
+    ELSEIF(MONTH 2 AND (year % 4 = 0) AND day > 28) THEN
+         write("Day is not coresponding with the month.")
+    ESLEIF (MONTH = 2 AND (year % 4 <> 0)AND day > 28) THEN
+         write("DAy is not coresponding with the month.")
+    ELSEIF (MONTH = 4 OR MONTH = 6 OR MONTH =9 OR MONTH =11) AND DAY > 30 THEN
+    write(" day is not coressponding with the month.") 
+     
+
+
+
+END

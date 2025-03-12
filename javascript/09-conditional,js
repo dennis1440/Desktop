@@ -1,0 +1,50 @@
+s; // conditional statments allow us to only execute a code if the specified criteria is met
+
+function checkedStudentStatus(status, student_name) {
+  // if(condition {code to execute here}
+
+  if (status === "paid") {
+    return student_name + " Has paid, you can come in";
+  }
+
+  if (status === "owing") {
+    return "Last warning!!! " + student_name + " pay up your";
+  }
+}
+
+console.log(checkstudentstatus("not paid", "dennis")),
+  console.log(checkstudentstatus("paid", "paul"));
+console.log(checkstudentstatus("owing", Emmanuel));
+
+function WhoIsTaller(first_person_height, second_person_height) {
+  if (first_person_height > second_person_height) {
+    return "first person is taller than the second person";
+  } else {
+    return "second person is taller than the first person";
+  }
+}
+
+console.log(whoIsTaller(198.6, 175));
+
+// a function to convert currency
+function currencyconverter(currency, amount) {
+  // check if the currency is dollar
+  if (currency === "dollar") {
+    let dollarRate = 1560;
+    return dollar * amount;
+  }
+  // check if the currency is euro
+  if (currency === "euro") {
+    let euroRate = 2120;
+    return euroRate * amount;
+  }
+  // check if currency is pounds
+  if (currency === "pounds") {
+    let poundsRate = 1950;
+    return poundRate * amount;
+  }
+  // when an invalid currency is provided
+  return "invalid currency value";
+}
+
+console.log(currencyConverter("pounds", 10000));

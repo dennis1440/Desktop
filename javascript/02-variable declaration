@@ -1,0 +1,26 @@
+// Declaring variables
+var school, age;
+
+console.log(school);
+// assigning the variables to hold actual values
+school = "UNIBEN";
+age = 100;
+console.log(school);
+console.log(age);
+
+// re-assigning the variable of school to a new value
+school = "Uniport";
+console.log(school);
+
+// declaring a variable and assigning it to a value at the same time
+var car = "Tesla cyber-truck";
+var footballteam = "Real Madrid";
+
+// camelCase for naming variable
+var stateOfOrigin = "Kano";
+var dateOfBirth = "2024-12-21";
+var totalGains = 367353;
+// snake-case for naming variables
+var match_outcome = "away team win";
+var profit_and_loss_balance = 28667219;
+var user_account_number = 11111111;
